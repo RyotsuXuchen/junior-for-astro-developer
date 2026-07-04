@@ -1,0 +1,31 @@
+{
+  "name": "junior-for-astro-developer",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "prepare": "vp config"
+  },
+  "dependencies": {
+    "astro": "^7.0.6"
+  },
+  "devDependencies": {
+    "vite-plus": "0.2.2"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.2.2"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "10.9.8",
+      "onFail": "download"
+    }
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
