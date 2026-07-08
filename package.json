@@ -10,7 +10,9 @@
     "prepare": "vp config"
   },
   "dependencies": {
-    "astro": "^7.0.6"
+    "@tailwindcss/vite": "^4.3.2",
+    "astro": "^7.0.6",
+    "tailwindcss": "^4.3.2"
   },
   "devDependencies": {
     "vite-plus": "0.2.2"
