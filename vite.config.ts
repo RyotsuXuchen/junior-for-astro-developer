@@ -1,5 +1,6 @@
 import { defineConfig } from "vite-plus";
 import tailwindcss from "@tailwindcss/vite";
+import { fileURLToPath } from "node:url";
 
 export default defineConfig({
   staged: {
@@ -12,4 +13,9 @@ export default defineConfig({
     options: { typeAware: true, typeCheck: true },
   },
   plugins: [tailwindcss()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
 });

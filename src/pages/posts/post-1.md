@@ -8,7 +8,7 @@ image:
   alt: "The Astro logo on a dark background with a pink glow."
 tags: ["astro", "blogging", "learning in public"]
 
-layout: "../../layouts/MarkdownPostLayout.astro"
+layout: "@/layouts/MarkdownPostLayout.astro"
 ---
 
 欢迎来到我学习关于 Astro 的新博客！在这里，我将分享我建立新网站的学习历程。
